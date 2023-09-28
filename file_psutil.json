@@ -3495,4 +3495,1999 @@
     "Interface (Loopback Pseudo-Interface 1)": {},
     "Total number of MB sent": "151.77MB",
     "Total number of GB received": "1.08GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "9.3%",
+    "CPU": {
+        "CPU 0": 3.1,
+        "CPU 1": 3.1,
+        "CPU 2": 15.6,
+        "CPU 3": 6.2,
+        "CPU 4": 21.9,
+        "CPU 5": 3.1,
+        "CPU 6": 9.4,
+        "CPU 7": 1.6
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.36GB",
+    "Used": "6.47GB",
+    "Percent": "82.6%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.01GB",
+    "Used": "501.88MB",
+    "Percent": 10.9
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.11GB",
+    "Free": "18.89GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.87MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "20.5%",
+    "CPU": {
+        "CPU 0": 21.2,
+        "CPU 1": 4.7,
+        "CPU 2": 32.8,
+        "CPU 3": 12.5,
+        "CPU 4": 18.8,
+        "CPU 5": 9.4,
+        "CPU 6": 20.0,
+        "CPU 7": 15.6
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.39GB",
+    "Used": "6.44GB",
+    "Percent": "82.2%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "490.09MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.11GB",
+    "Free": "18.89GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.87MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "7.0%",
+    "CPU": {
+        "CPU 0": 4.6,
+        "CPU 1": 1.5,
+        "CPU 2": 12.5,
+        "CPU 3": 3.1,
+        "CPU 4": 7.8,
+        "CPU 5": 3.1,
+        "CPU 6": 10.9,
+        "CPU 7": 1.6
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.30GB",
+    "Used": "6.53GB",
+    "Percent": "83.4%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "489.79MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.88MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "7.5%",
+    "CPU": {
+        "CPU 0": 4.6,
+        "CPU 1": 1.6,
+        "CPU 2": 13.8,
+        "CPU 3": 9.4,
+        "CPU 4": 7.8,
+        "CPU 5": 3.1,
+        "CPU 6": 9.4,
+        "CPU 7": 3.1
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.39GB",
+    "Used": "6.45GB",
+    "Percent": "82.2%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "488.93MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.88MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "11.5%",
+    "CPU": {
+        "CPU 0": 16.4,
+        "CPU 1": 4.6,
+        "CPU 2": 22.4,
+        "CPU 3": 6.2,
+        "CPU 4": 12.5,
+        "CPU 5": 9.2,
+        "CPU 6": 15.6,
+        "CPU 7": 3.1
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.39GB",
+    "Used": "6.44GB",
+    "Percent": "82.2%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "488.82MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.88MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "11.5%",
+    "CPU": {
+        "CPU 0": 17.9,
+        "CPU 1": 3.1,
+        "CPU 2": 21.9,
+        "CPU 3": 10.9,
+        "CPU 4": 10.9,
+        "CPU 5": 7.8,
+        "CPU 6": 10.9,
+        "CPU 7": 7.8
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.39GB",
+    "Used": "6.45GB",
+    "Percent": "82.3%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "488.78MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.88MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "27.0%",
+    "CPU": {
+        "CPU 0": 30.9,
+        "CPU 1": 14.1,
+        "CPU 2": 40.6,
+        "CPU 3": 29.7,
+        "CPU 4": 34.4,
+        "CPU 5": 18.8,
+        "CPU 6": 40.6,
+        "CPU 7": 12.5
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.34GB",
+    "Used": "6.50GB",
+    "Percent": "82.9%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "488.69MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.88MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "7.7%",
+    "CPU": {
+        "CPU 0": 13.2,
+        "CPU 1": 20.3,
+        "CPU 2": 4.7,
+        "CPU 3": 6.2,
+        "CPU 4": 9.4,
+        "CPU 5": 1.6,
+        "CPU 6": 3.1,
+        "CPU 7": 0.0
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.35GB",
+    "Used": "6.49GB",
+    "Percent": "82.8%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "488.30MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.90MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "5.3%",
+    "CPU": {
+        "CPU 0": 7.8,
+        "CPU 1": 1.6,
+        "CPU 2": 7.8,
+        "CPU 3": 6.2,
+        "CPU 4": 6.2,
+        "CPU 5": 1.6,
+        "CPU 6": 6.2,
+        "CPU 7": 1.6
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.33GB",
+    "Used": "6.51GB",
+    "Percent": "83.0%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "488.20MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.90MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "8.4%",
+    "CPU": {
+        "CPU 0": 16.4,
+        "CPU 1": 4.7,
+        "CPU 2": 12.5,
+        "CPU 3": 3.1,
+        "CPU 4": 12.5,
+        "CPU 5": 0.0,
+        "CPU 6": 13.6,
+        "CPU 7": 1.6
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.36GB",
+    "Used": "6.47GB",
+    "Percent": "82.6%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "488.10MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.92MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "8.6%",
+    "CPU": {
+        "CPU 0": 21.1,
+        "CPU 1": 6.2,
+        "CPU 2": 9.4,
+        "CPU 3": 6.2,
+        "CPU 4": 7.8,
+        "CPU 5": 3.1,
+        "CPU 6": 6.2,
+        "CPU 7": 1.6
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.37GB",
+    "Used": "6.47GB",
+    "Percent": "82.5%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "488.05MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.92MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "7.2%",
+    "CPU": {
+        "CPU 0": 6.2,
+        "CPU 1": 1.6,
+        "CPU 2": 10.9,
+        "CPU 3": 3.2,
+        "CPU 4": 15.6,
+        "CPU 5": 4.7,
+        "CPU 6": 6.3,
+        "CPU 7": 1.6
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.37GB",
+    "Used": "6.46GB",
+    "Percent": "82.5%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "487.92MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.92MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "9.2%",
+    "CPU": {
+        "CPU 0": 12.5,
+        "CPU 1": 6.2,
+        "CPU 2": 14.1,
+        "CPU 3": 6.2,
+        "CPU 4": 9.4,
+        "CPU 5": 3.1,
+        "CPU 6": 14.3,
+        "CPU 7": 6.2
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.38GB",
+    "Used": "6.46GB",
+    "Percent": "82.4%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "487.66MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.92MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "19.4%",
+    "CPU": {
+        "CPU 0": 27.9,
+        "CPU 1": 14.1,
+        "CPU 2": 31.7,
+        "CPU 3": 17.2,
+        "CPU 4": 17.2,
+        "CPU 5": 17.2,
+        "CPU 6": 15.6,
+        "CPU 7": 19.0
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.35GB",
+    "Used": "6.48GB",
+    "Percent": "82.7%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.02GB",
+    "Used": "487.60MB",
+    "Percent": 10.6
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.93MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "4.7%",
+    "CPU": {
+        "CPU 0": 7.6,
+        "CPU 1": 0.0,
+        "CPU 2": 6.2,
+        "CPU 3": 1.6,
+        "CPU 4": 0.0,
+        "CPU 5": 3.2,
+        "CPU 6": 6.2,
+        "CPU 7": 0.0
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.35GB",
+    "Used": "6.48GB",
+    "Percent": "82.7%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.03GB",
+    "Used": "482.50MB",
+    "Percent": 10.5
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.93MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "4.6%",
+    "CPU": {
+        "CPU 0": 23.6,
+        "CPU 1": 3.1,
+        "CPU 2": 1.6,
+        "CPU 3": 3.1,
+        "CPU 4": 0.0,
+        "CPU 5": 3.1,
+        "CPU 6": 0.0,
+        "CPU 7": 3.1
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.37GB",
+    "Used": "6.46GB",
+    "Percent": "82.5%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.03GB",
+    "Used": "482.43MB",
+    "Percent": 10.5
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "166.93MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "10.0%",
+    "CPU": {
+        "CPU 0": 43.8,
+        "CPU 1": 56.2,
+        "CPU 2": 51.6,
+        "CPU 3": 44.6,
+        "CPU 4": 70.3,
+        "CPU 5": 52.3,
+        "CPU 6": 46.9,
+        "CPU 7": 50.0
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.41GB",
+    "Used": "6.43GB",
+    "Percent": "82.0%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.03GB",
+    "Used": "481.05MB",
+    "Percent": 10.4
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "167.00MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "1.7%",
+    "CPU": {
+        "CPU 0": 11.8,
+        "CPU 1": 0.0,
+        "CPU 2": 3.1,
+        "CPU 3": 1.6,
+        "CPU 4": 6.2,
+        "CPU 5": 4.7,
+        "CPU 6": 1.6,
+        "CPU 7": 1.6
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.45GB",
+    "Used": "6.39GB",
+    "Percent": "81.5%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.00GB",
+    "Used": "510.98MB",
+    "Percent": 11.1
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "167.00MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "4.7%",
+    "CPU": {
+        "CPU 0": 1.6,
+        "CPU 1": 4.8,
+        "CPU 2": 4.7,
+        "CPU 3": 1.6,
+        "CPU 4": 9.5,
+        "CPU 5": 0.0,
+        "CPU 6": 0.0,
+        "CPU 7": 1.6
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.38GB",
+    "Used": "6.46GB",
+    "Percent": "82.4%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.00GB",
+    "Used": "510.52MB",
+    "Percent": 11.1
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.09GB",
+    "Free": "18.91GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "167.03MB",
+    "Total number of GB received": "1.15GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "2.6%",
+    "CPU": {
+        "CPU 0": 9.1,
+        "CPU 1": 1.6,
+        "CPU 2": 6.2,
+        "CPU 3": 1.6,
+        "CPU 4": 7.8,
+        "CPU 5": 1.6,
+        "CPU 6": 4.7,
+        "CPU 7": 0.0
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.41GB",
+    "Used": "6.43GB",
+    "Percent": "82.1%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.00GB",
+    "Used": "509.55MB",
+    "Percent": 11.1
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.08GB",
+    "Free": "18.92GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "167.17MB",
+    "Total number of GB received": "1.16GB"
+}{
+    "Title": [
+        "========================================",
+        "System information",
+        "========================================"
+    ],
+    "System name": "Windows",
+    "Name node": "LAPTOP-BR7U95K3",
+    "Release": "10",
+    "Version": "10.0.19045",
+    "Machine": "AMD64",
+    "Processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}{
+    "Title": [
+        "========================================",
+        "Information about processor",
+        "========================================"
+    ],
+    "Physical CPU": 4,
+    "All CPU": 8,
+    "Maximum freq": "2112.00MHz",
+    "Minimal freq": "0.00 MHz",
+    "Current freq": "2112.00 MHz"
+}{
+    "Title": [
+        "========================================",
+        "CPU load per core",
+        "========================================"
+    ],
+    "Total processor load": "2.8%",
+    "CPU": {
+        "CPU 0": 1.6,
+        "CPU 1": 0.0,
+        "CPU 2": 9.2,
+        "CPU 3": 0.0,
+        "CPU 4": 3.1,
+        "CPU 5": 0.0,
+        "CPU 6": 3.1,
+        "CPU 7": 0.0
+    }
+}{
+    "Title": [
+        "========================================",
+        "RAM info",
+        "========================================"
+    ],
+    "Total": "7.84GB",
+    "Available": "1.40GB",
+    "Used": "6.44GB",
+    "Percent": "82.2%"
+}{
+    "Title": [
+        "========================================",
+        "Swap memory",
+        "========================================"
+    ],
+    "Total": "4.50GB",
+    "Free": "4.00GB",
+    "Used": "509.20MB",
+    "Percent": 11.1
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "C:\\",
+    "File system": "NTFS",
+    "Total usage": "120.00GB",
+    "Used": "101.08GB",
+    "Free": "18.92GB"
+}{
+    "Title": [
+        "========================================",
+        "Disks info",
+        "========================================"
+    ],
+    "Disk": "D:\\",
+    "File system": "NTFS",
+    "Total usage": "341.33GB",
+    "Used": "31.06GB",
+    "Free": "310.26GB"
+}{
+    "Title": [
+        "========================================",
+        "Network info",
+        "========================================"
+    ],
+    "Interface (Подключение по локальной сети* 1)": {},
+    "Interface (Подключение по локальной сети* 2)": {},
+    "Interface (Беспроводная сеть)": {},
+    "Interface (Сетевое подключение Bluetooth)": {},
+    "Interface (Loopback Pseudo-Interface 1)": {},
+    "Total number of MB sent": "167.19MB",
+    "Total number of GB received": "1.16GB"
 }

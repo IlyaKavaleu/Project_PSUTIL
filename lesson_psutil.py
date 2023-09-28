@@ -1,4 +1,6 @@
 import os
+import time
+
 import psutil
 import platform
 import json
@@ -25,10 +27,10 @@ def print_and_write_system_info(data_from_psutil):
     """Function get dict from function and get this to beautiful table like KEY-VALUE"""
     system_info = data_from_psutil
 
-    table_data = [[Fore.YELLOW + 'Property', 'Value']]
+    table_data = [['Property', 'Value']]
     for prop, value in system_info.items():
         table_data.append([prop, value])
-    print(tabulate(table_data, tablefmt='fancy_grid'))
+    print(Fore.YELLOW + tabulate(table_data, tablefmt='fancy_grid'))
 
     file = 'file_psutil.json'
     with open(file, 'a') as json_file:
@@ -157,62 +159,13 @@ def main():
 
 
 if __name__ == '__main__':
+    print('='*69, 'Start system', '='*70)
+    count = 0
+    for x in range(10):
+        time.sleep(2)
+        count += 10
+        print('='*69, f"Hacking system to ...{count}%", '='*70)
+    time.sleep(2)
     main()
-
-# # def cpu_info():
-# #     cpu_info_var = psutil.cpu_percent(interval=1, percpu=True)
-# #     with open('file.txt', 'a') as f:
-# #         f.write(f"Получение информации о центральном процессоре (CPU): {cpu_info_var}" + "\n\n\n")
-# #     return cpu_info_var
-# #
-# #
-# # def memory_info():
-# #     memory_info_var = psutil.virtual_memory()
-# #     with open('file.txt', 'a') as f:
-# #         f.write(f"Получение информации о памяти: {memory_info_var}" + "\n\n\n")
-# #     return memory_info_var
-# #
-# #
-# # def processes():
-# #     processes_list = []
-# #     processes_var = psutil.process_iter()
-# #     count = 0
-# #     for process in processes_var:
-# #         count += 1
-# #         processes_list.append(f'{count}: {process}')
-# #
-# #     with open('file.txt', 'a') as f:
-# #         f.write('Получение списка запущенных процессов: ' + '\n\n')
-# #         for process in processes_list:
-# #             f.write(str(process) + '\n')
-# #         f.write("\n\n")
-# #     return processes_list
-# #
-# #
-# # def disk_info():
-# #     disk_info_var = psutil.disk_usage('/')
-# #     with open('file.txt', 'a') as f:
-# #         f.write(f"Получение информации о дисковом пространстве: {disk_info_var}")
-# #     return disk_info_var
-# #
-# #
-# # def main():
-# #     print('Получение данных о Windows 10...')
-# #     time.sleep(3)
-# #     print("Получение информации о центральном процессоре (CPU):")
-# #     print(f"{cpu_info()}\n\n\n")
-# #     time.sleep(2)
-# #     print("Получение информации о памяти:")
-# #     print(f"{memory_info()}\n\n\n")
-# #     time.sleep(2)
-# #     print('Получение списка запущенных процессов:')
-# #     print(f"{processes()}\n\n\n")
-# #     time.sleep(2)
-# #     print('Получение информации о дисковом пространстве:')
-# #     print(f"{disk_info()}\n")
-# #     time.sleep(1)
-# #     print('Процесс парсинга Windows закончен!')
-# #
-# #
-# # if __name__ == '__main__':
-# #     main()
+    time.sleep(2)
+    print('='*69, 'Finish system', '='*70)
