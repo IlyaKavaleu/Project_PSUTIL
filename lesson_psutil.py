@@ -148,7 +148,7 @@ def print_network_info():
 
 
 def main():
-    """Call print_network_info() to print network information"""
+    """Call main() to print network information"""
     print_system_info()
     print_cpu_info()
     print_cpu_usage()
