@@ -1,0 +1,16 @@
+{
+    "Disk 1": {
+        "disk": "C:\\",
+        "file_system": "NTFS",
+        "total_usage": "120.00GB",
+        "used": "101.62GB",
+        "free": "18.38GB"
+    },
+    "Disk 2": {
+        "disk": "D:\\",
+        "file_system": "NTFS",
+        "total_usage": "341.33GB",
+        "used": "31.06GB",
+        "free": "310.26GB"
+    }
+}
