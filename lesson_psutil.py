@@ -1,18 +1,13 @@
 import os
 import time
-
 import psutil
 import platform
 import json
 from tabulate import tabulate
 from colorama import Fore, Back, Style, init
 
+
 init()
-
-
-def clear_screen():
-    """Screen cleaning function"""
-    os.system('cls' if os.name == 'nt' else 'clear')
 
 
 def count_MB(count_bytes, suffix='B'):
@@ -23,18 +18,23 @@ def count_MB(count_bytes, suffix='B'):
         count_bytes /= factor
 
 
-def print_and_write_system_info(data_from_psutil):
+def write_to_json():
     """Function get dict from function and get this to beautiful table like KEY-VALUE"""
-    get_system_info = data_from_psutil
+    functions = {
+        'System Info': (system_info, 'system_info.json'),
+        'CPU Info': (cpu_info, 'cpu_info.json'),
+        'CPU Usage': (cpu_usage, 'cpu_usage.json'),
+        'Memory Info': (memory_info, 'memory_info.json'),
+        'Swap Memory': (swap_memory, 'swap_memory.json'),
+        'Disk Info': (disk_info, 'disk_info.json'),
+        'Network Info': (network_info, 'network_info.json'),
+    }
 
-    table_data = [['Property', 'Value']]
-    for prop, value in get_system_info.items():
-        table_data.append([prop, value])
-    print(Fore.YELLOW + tabulate(table_data, tablefmt='fancy_grid'))
-
-    file = 'file_psutil.json'
-    with open(file, 'a') as json_file:
-        json.dump(data_from_psutil, json_file, ensure_ascii=False, indent=4)
+    # Iterate through the functions and save their data to separate JSON files
+    for category, (func, filename) in functions.items():
+        data = func()
+        with open(filename, 'w') as json_file:
+            json.dump(data, json_file, indent=4)
 
 
 def system_info():
@@ -48,7 +48,7 @@ def system_info():
         'machine': uname.machine,
         'processor': uname.processor,
     }
-    print_and_write_system_info(get_system_info)
+    return get_system_info
 
 
 def cpu_info():
@@ -61,7 +61,7 @@ def cpu_info():
         'minimal_freq': f'{cpufreq.min:.2f} MHz',
         'current_freq': f'{cpufreq.current:.2f} MHz'
     }
-    print_and_write_system_info(get_system_info)
+    return get_system_info
 
 
 def cpu_usage():
@@ -73,7 +73,7 @@ def cpu_usage():
         'total_processor_load': f'{psutil.cpu_percent()}%',
         'data_CPU': data
     }
-    print_and_write_system_info(get_system_info)
+    return get_system_info
 
 
 def memory_info():
@@ -85,7 +85,7 @@ def memory_info():
         'used': count_MB(svmem.used),
         'percent': f'{svmem.percent}%'
     }
-    print_and_write_system_info(get_system_info)
+    return get_system_info
 
 
 def swap_memory():
@@ -97,7 +97,7 @@ def swap_memory():
         'used': count_MB(swap.used),
         'percent': swap.percent
     }
-    print_and_write_system_info(get_system_info)
+    return get_system_info
 
 
 def disk_info():
@@ -116,7 +116,7 @@ def disk_info():
             }
         except PermissionError:
             continue
-        print_and_write_system_info(get_system_info)
+        return get_system_info
 
 
 def network_info():
@@ -138,28 +138,44 @@ def network_info():
     net_io = psutil.net_io_counters()
     get_system_info['total_number_of_MB_sent'] = count_MB(net_io.bytes_sent)
     get_system_info['total_number_of_GB_received'] = count_MB(net_io.bytes_recv)
-    print_and_write_system_info(get_system_info)
+    return get_system_info
+
+
+def func_print_to_console():
+    """Call main() to print network information"""
+    table_data = [['Property', 'Value']]
+
+    all_info = {
+        'System Info': system_info(),
+        'CPU Info': cpu_info(),
+        'CPU Usage': cpu_usage(),
+        'Memory Info': memory_info(),
+        'Swap Memory': swap_memory(),
+        'Disk Info': disk_info(),
+        'Network Info': network_info(),
+    }
+
+    # Iterate through the combined dictionary and add data to the table
+    for category, data in all_info.items():
+        table_data.append(['', ''])
+        for prop, value in data.items():
+            table_data.append([prop, value])
+    print(Fore.YELLOW + tabulate(table_data, tablefmt='fancy_grid'))
 
 
 def main():
-    """Call main() to print network information"""
-    system_info()
-    cpu_info()
-    cpu_usage()
-    memory_info()
-    swap_memory()
-    disk_info()
-    network_info()
+    func_print_to_console()
+    write_to_json()
 
 
 if __name__ == '__main__':
-    print('='*69, 'Start system', '='*70)
+    print('=' * 69, 'Start system', '=' * 70)
     count = 0
     for x in range(10):
         time.sleep(2)
         count += 10
-        print('='*69, f"Hacking system to ...{count}%", '='*70)
+        print('=' * 69, f"Hacking system to ...{count}%", '=' * 70)
     time.sleep(2)
     main()
     time.sleep(2)
-    print('='*69, 'Finish system', '='*70)
+    print('=' * 69, 'Finish system', '=' * 70)
