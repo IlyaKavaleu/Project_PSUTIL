@@ -6,35 +6,16 @@ import json
 from tabulate import tabulate
 from colorama import Fore, Back, Style, init
 
-
 init()
 
 
 def count_MB(count_bytes, suffix='B'):
+    """A counting function that converts bytes into GB, if necessary"""
     factor = 1024
     for unit in ["", "K", "M", "G", "T", "P"]:
         if count_bytes < factor:
             return f"{count_bytes:.2f}{unit}{suffix}"
         count_bytes /= factor
-
-
-def write_to_json():
-    """Function get dict from function and get this to beautiful table like KEY-VALUE"""
-    functions = {
-        'System Info': (system_info, 'system_info.json'),
-        'CPU Info': (cpu_info, 'cpu_info.json'),
-        'CPU Usage': (cpu_usage, 'cpu_usage.json'),
-        'Memory Info': (memory_info, 'memory_info.json'),
-        'Swap Memory': (swap_memory, 'swap_memory.json'),
-        'Disk Info': (disk_info, 'disk_info.json'),
-        'Network Info': (network_info, 'network_info.json'),
-    }
-
-    # Iterate through the functions and save their data to separate JSON files
-    for category, (func, filename) in functions.items():
-        data = func()
-        with open(filename, 'w') as json_file:
-            json.dump(data, json_file, indent=4)
 
 
 def system_info():
@@ -141,31 +122,46 @@ def network_info():
     return get_system_info
 
 
-def func_print_to_console():
-    """Call main() to print network information"""
-    table_data = [['Property', 'Value']]
-
-    all_info = {
-        'System Info': system_info(),
-        'CPU Info': cpu_info(),
-        'CPU Usage': cpu_usage(),
-        'Memory Info': memory_info(),
-        'Swap Memory': swap_memory(),
-        'Disk Info': disk_info(),
-        'Network Info': network_info(),
+def all_func():
+    """We collect all functions into one dict"""
+    functions = {
+        'System Info': (system_info, 'system_info.json'),
+        'CPU Info': (cpu_info, 'cpu_info.json'),
+        'CPU Usage': (cpu_usage, 'cpu_usage.json'),
+        'Memory Info': (memory_info, 'memory_info.json'),
+        'Swap Memory': (swap_memory, 'swap_memory.json'),
+        'Disk Info': (disk_info, 'disk_info.json'),
+        'Network Info': (network_info, 'network_info.json'),
     }
+    return functions
 
-    # Iterate through the combined dictionary and add data to the table
-    for category, data in all_info.items():
+
+def write_to_json(dates=None):
+    """Function get data and write all to another JSON files"""
+    if dates is None:
+        dates = dates
+    for category, (func, filename) in dates.items():
+        data = func()
+        with open(filename, 'w') as json_file:
+            json.dump(data, json_file, indent=4)
+
+
+def func_print_to_console(dates=None):
+    """Print all information to the console"""
+    if dates is None:
+        dates = dates
+    table_data = [['Property', 'Value']]
+    for category, (func, _) in dates.items():
+        category_data = func()
         table_data.append(['', ''])
-        for prop, value in data.items():
+        for prop, value in category_data.items():
             table_data.append([prop, value])
     print(Fore.YELLOW + tabulate(table_data, tablefmt='fancy_grid'))
 
 
 def main():
-    func_print_to_console()
-    write_to_json()
+    func_print_to_console(all_func())
+    write_to_json(all_func())
 
 
 if __name__ == '__main__':
