@@ -7,7 +7,7 @@
 
 <h2>Image after hacking processes and obtaining information</h2>
 
-![hucking_2](https://github.com/IlyaKavaleu/Project_PSUTIL/assets/97099564/e88741e8-2770-4c2a-8d1e-b09bba7a7b21)
+![hacking_2](https://github.com/IlyaKavaleu/Project_PSUTIL/assets/97099564/ae2aaa85-b5de-43a7-8cfe-c279ccbe8c46)
 
 
 
