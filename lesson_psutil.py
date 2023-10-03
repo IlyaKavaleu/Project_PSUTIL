@@ -123,13 +123,13 @@ def get_network_info():
 def all_func():
     """Collect all functions into one dict"""
     functions = {
-        'System Info': (get_system_info, 'get_system_info.json'),
-        'CPU Info': (get_cpu_info, 'get_cpu_info.json'),
-        'CPU Usage': (get_cpu_usage, 'get_cpu_usage.json'),
-        'Memory Info': (get_memory_info, 'get_memory_info.json'),
-        'Swap Memory': (get_swap_memory, 'get_swap_memory.json'),
-        'Disk Info': (get_disk_info, 'get_disk_info.json'),
-        'Network Info': (get_network_info, 'get_network_info.json'),
+        'system_info': (get_system_info, 'get_system_info.json'),
+        'cpu_info': (get_cpu_info, 'get_cpu_info.json'),
+        'cpu_usage': (get_cpu_usage, 'get_cpu_usage.json'),
+        'memory_info': (get_memory_info, 'get_memory_info.json'),
+        'swap_memory': (get_swap_memory, 'get_swap_memory.json'),
+        'disk_info': (get_disk_info, 'get_disk_info.json'),
+        'network_info': (get_network_info, 'get_network_info.json'),
     }
     return functions
 
