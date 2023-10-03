@@ -44,6 +44,7 @@ def get_cpu_info():
     }
     return system_info
 
+
 def get_cpu_usage():
     """Function for displaying information about CPU load"""
     data = {}
@@ -120,7 +121,7 @@ def get_network_info():
 
 
 def all_func():
-    """We collect all functions into one dict"""
+    """Collect all functions into one dict"""
     functions = {
         'System Info': (get_system_info, 'get_system_info.json'),
         'CPU Info': (get_cpu_info, 'get_cpu_info.json'),
@@ -134,7 +135,7 @@ def all_func():
 
 
 def to_json(dates):
-    """Function get data and write all to another JSON files"""
+    """Write all to another JSON files"""
     for category, (func, filename) in dates.items():
         data = func()
         with open(filename, 'w') as json_file:
