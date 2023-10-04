@@ -160,11 +160,11 @@ def main():
 
 if __name__ == '__main__':
     print('=' * 69, 'Start system', '=' * 70)
-    count = 0
-    for x in range(10):
-        time.sleep(2)
-        count += 10
-        print('=' * 69, f"Hacking system to ...{count}%", '=' * 70)
+    # count = 0
+    # for x in range(10):
+    #     time.sleep(2)
+    #     count += 10
+    #     print('=' * 69, f"Hacking system to ...{count}%", '=' * 70)
     time.sleep(2)
     main()
     time.sleep(2)
