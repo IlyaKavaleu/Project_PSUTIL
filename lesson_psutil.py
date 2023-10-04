@@ -94,7 +94,7 @@ def get_disk_info():
             'used': count_MB(partition_usage.used),
             'free': count_MB(partition_usage.free)
         }
-        system_info[f"disk {index + 1}"] = data_disks
+        system_info[f"disk_{index + 1}"] = data_disks
     return system_info
 
 
