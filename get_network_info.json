@@ -1,9 +1,67 @@
 {
-    "interface (\u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043f\u043e \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u043e\u0439 \u0441\u0435\u0442\u0438* 1)": {},
-    "interface (\u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043f\u043e \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u043e\u0439 \u0441\u0435\u0442\u0438* 2)": {},
-    "interface (\u0411\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u0430\u044f \u0441\u0435\u0442\u044c)": {},
-    "interface (\u0421\u0435\u0442\u0435\u0432\u043e\u0435 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 Bluetooth)": {},
-    "interface (Loopback Pseudo-Interface 1)": {},
-    "total_number_of_MB_sent": "105.47MB",
-    "total_number_of_GB_received": "8.15GB"
+    "system_info": {
+        "system_name": "Windows",
+        "name_node": "LAPTOP-BR7U95K3",
+        "release": "10",
+        "version": "10.0.19045",
+        "machine": "AMD64",
+        "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "cpu_info": {
+        "physical_CPU": 4,
+        "all_CPU": 8,
+        "maximum_freq": "2112.00MHz",
+        "minimal_freq": "0.00 MHz",
+        "current_freq": "2112.00 MHz"
+    },
+    "cpu_usage": {
+        "total_processor_load": "5.0%",
+        "data_CPU": {
+            "cpu 0": 3.1,
+            "cpu 1": 0.0,
+            "cpu 2": 3.1,
+            "cpu 3": 1.6,
+            "cpu 4": 4.6,
+            "cpu 5": 1.6,
+            "cpu 6": 0.0,
+            "cpu 7": 1.6
+        }
+    },
+    "memory_info": {
+        "total": "7.84GB",
+        "available": "1.55GB",
+        "used": "6.29GB",
+        "percent": "80.2%"
+    },
+    "swap_memory": {
+        "total": "4.50GB",
+        "free": "4.16GB",
+        "used": "346.41MB",
+        "percent": 7.5
+    },
+    "disk_info": {
+        "disk_1": {
+            "disk": "C:\\",
+            "file_system": "NTFS",
+            "total_usage": "120.00GB",
+            "used": "100.04GB",
+            "free": "19.96GB"
+        },
+        "disk_2": {
+            "disk": "D:\\",
+            "file_system": "NTFS",
+            "total_usage": "341.33GB",
+            "used": "31.07GB",
+            "free": "310.26GB"
+        }
+    },
+    "network_info": {
+        "interface (\u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043f\u043e \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u043e\u0439 \u0441\u0435\u0442\u0438* 1)": {},
+        "interface (\u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043f\u043e \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u043e\u0439 \u0441\u0435\u0442\u0438* 2)": {},
+        "interface (\u0411\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u0430\u044f \u0441\u0435\u0442\u044c)": {},
+        "interface (\u0421\u0435\u0442\u0435\u0432\u043e\u0435 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 Bluetooth)": {},
+        "interface (Loopback Pseudo-Interface 1)": {},
+        "total_number_of_MB_sent": "854.12KB",
+        "total_number_of_GB_received": "8.37MB"
+    }
 }

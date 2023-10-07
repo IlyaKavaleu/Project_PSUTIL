@@ -120,6 +120,20 @@ def get_network_info():
     return system_info
 
 
+def to_json(func):
+    """Write a dictionary of functions to JSON files"""
+    def wrap():
+        functions = func()
+        data = {}
+        for category_name, (method, filename) in functions.items():
+            with open(filename, 'w') as json_file:
+                data[category_name] = method()
+                json.dump(data, json_file, indent=4)
+        return data
+    return wrap
+
+
+@to_json
 def all_func():
     """Collect all functions into one dict"""
     functions = {
@@ -129,42 +143,33 @@ def all_func():
         'memory_info': (get_memory_info, 'get_memory_info.json'),
         'swap_memory': (get_swap_memory, 'get_swap_memory.json'),
         'disk_info': (get_disk_info, 'get_disk_info.json'),
-        'network_info': (get_network_info, 'get_network_info.json'),
+        'network_info': (get_network_info, 'get_network_info.json')
     }
     return functions
-
-
-def to_json(dates):
-    """Write all to another JSON files"""
-    for category, (func, filename) in dates.items():
-        data = func()
-        with open(filename, 'w') as json_file:
-            json.dump(data, json_file, indent=4)
 
 
 def show(dates):
     """Print all information to the console"""
     table_data = [['Property', 'Value']]
-    for category, (func, _) in dates.items():
-        category_data = func()
+    for category, func in dates.items():
         table_data.append(['', ''])
-        for prop, value in category_data.items():
+        for prop, value in func.items():
             table_data.append([prop, value])
     print(Fore.YELLOW + tabulate(table_data, tablefmt='fancy_grid'))
 
 
 def main():
-    show(all_func())
     to_json(all_func())
+    show(all_func())
 
 
 if __name__ == '__main__':
     print('=' * 69, 'Start system', '=' * 70)
-    # count = 0
-    # for x in range(10):
-    #     time.sleep(2)
-    #     count += 10
-    #     print('=' * 69, f"Hacking system to ...{count}%", '=' * 70)
+    count = 0
+    for x in range(10):
+        time.sleep(2)
+        count += 10
+        print('=' * 69, f"Hacking system to ...{count}%", '=' * 70)
     time.sleep(2)
     main()
     time.sleep(2)
