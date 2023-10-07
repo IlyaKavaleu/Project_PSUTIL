@@ -122,6 +122,7 @@ def get_network_info():
 
 def to_json(func):
     """Write a dictionary of functions to JSON files"""
+
     def wrap():
         functions = func()
         data = {}
