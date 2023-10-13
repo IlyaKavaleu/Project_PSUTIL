@@ -1,1 +1,13 @@
-{"total_processor_load": "7.1%", "data_CPU": {"cpu 0": 9.2, "cpu 1": 6.5, "cpu 2": 7.8, "cpu 3": 9.4, "cpu 4": 4.7, "cpu 5": 4.7, "cpu 6": 6.2, "cpu 7": 6.3}}
+{
+    "total_processor_load": "6.5%",
+    "data_CPU": {
+        "cpu 0": 7.8,
+        "cpu 1": 1.6,
+        "cpu 2": 10.9,
+        "cpu 3": 4.7,
+        "cpu 4": 6.2,
+        "cpu 5": 3.1,
+        "cpu 6": 4.7,
+        "cpu 7": 9.4
+    }
+}

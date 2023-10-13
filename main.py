@@ -5,7 +5,7 @@ from show import show
 
 def main():
     functions = all_func()
-    to_json(filename='')
+    to_json(functions)
     show(functions)
 
 

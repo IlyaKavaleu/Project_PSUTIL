@@ -1,1 +1,8 @@
-{"system_name": "Windows", "name_node": "LAPTOP-BR7U95K3", "release": "10", "version": "10.0.19045", "machine": "AMD64", "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"}
+{
+    "system_name": "Windows",
+    "name_node": "LAPTOP-BR7U95K3",
+    "release": "10",
+    "version": "10.0.19045",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+}
