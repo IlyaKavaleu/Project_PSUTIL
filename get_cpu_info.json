@@ -1,17 +1,7 @@
 {
-    "system_info": {
-        "system_name": "Windows",
-        "name_node": "LAPTOP-BR7U95K3",
-        "release": "10",
-        "version": "10.0.19045",
-        "machine": "AMD64",
-        "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
-    },
-    "cpu_info": {
-        "physical_CPU": 4,
-        "all_CPU": 8,
-        "maximum_freq": "2112.00MHz",
-        "minimal_freq": "0.00 MHz",
-        "current_freq": "2112.00 MHz"
-    }
+    "physical_CPU": 4,
+    "all_CPU": 8,
+    "maximum_freq": "2112.00MHz",
+    "minimal_freq": "0.00 MHz",
+    "current_freq": "2112.00 MHz"
 }

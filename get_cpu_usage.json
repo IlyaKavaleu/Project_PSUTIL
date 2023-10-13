@@ -1,30 +1,13 @@
 {
-    "system_info": {
-        "system_name": "Windows",
-        "name_node": "LAPTOP-BR7U95K3",
-        "release": "10",
-        "version": "10.0.19045",
-        "machine": "AMD64",
-        "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
-    },
-    "cpu_info": {
-        "physical_CPU": 4,
-        "all_CPU": 8,
-        "maximum_freq": "2112.00MHz",
-        "minimal_freq": "0.00 MHz",
-        "current_freq": "2112.00 MHz"
-    },
-    "cpu_usage": {
-        "total_processor_load": "5.0%",
-        "data_CPU": {
-            "cpu 0": 3.1,
-            "cpu 1": 0.0,
-            "cpu 2": 3.1,
-            "cpu 3": 1.6,
-            "cpu 4": 4.6,
-            "cpu 5": 1.6,
-            "cpu 6": 0.0,
-            "cpu 7": 1.6
-        }
+    "total_processor_load": "41.1%",
+    "data_CPU": {
+        "cpu 0": 43.9,
+        "cpu 1": 39.7,
+        "cpu 2": 56.2,
+        "cpu 3": 41.3,
+        "cpu 4": 38.1,
+        "cpu 5": 39.1,
+        "cpu 6": 41.5,
+        "cpu 7": 39.7
     }
 }

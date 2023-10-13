@@ -18,6 +18,19 @@ def count_MB(count_bytes, suffix='B'):
         count_bytes /= factor
 
 
+def to_json(filename):
+    """Write a dictionary of functions to JSON files"""
+    def decorator(func):
+        def wrap():
+            data = func()
+            with open(filename, 'w') as json_file:
+                json.dump(data, json_file, indent=4)
+            return data
+        return wrap
+    return decorator
+
+
+@to_json('get_system_info.json')
 def get_system_info():
     """Information about system"""
     uname = platform.uname()
@@ -32,6 +45,7 @@ def get_system_info():
     return system_info
 
 
+@to_json('get_cpu_info.json')
 def get_cpu_info():
     """Information about processor"""
     cpufreq = psutil.cpu_freq()
@@ -45,6 +59,7 @@ def get_cpu_info():
     return system_info
 
 
+@to_json('get_cpu_usage.json')
 def get_cpu_usage():
     """Function for displaying information about CPU load"""
     data = {}
@@ -57,6 +72,7 @@ def get_cpu_usage():
     return system_info
 
 
+@to_json('get_memory_info.json')
 def get_memory_info():
     """Function for displaying information about RAM"""
     svmem = psutil.virtual_memory()
@@ -69,6 +85,7 @@ def get_memory_info():
     return system_info
 
 
+@to_json('get_swap_memory.json')
 def get_swap_memory():
     """Function for displaying information about swap memory"""
     swap = psutil.swap_memory()
@@ -81,6 +98,7 @@ def get_swap_memory():
     return system_info
 
 
+@to_json('get_disk_info.json')
 def get_disk_info():
     """Function to display disk information"""
     system_info = {}
@@ -98,6 +116,7 @@ def get_disk_info():
     return system_info
 
 
+@to_json('get_network_info.json')
 def get_network_info():
     """Function to display network information"""
     system_info = {}
@@ -120,31 +139,16 @@ def get_network_info():
     return system_info
 
 
-def to_json(func):
-    """Write a dictionary of functions to JSON files"""
-
-    def wrap():
-        functions = func()
-        data = {}
-        for category_name, (method, filename) in functions.items():
-            with open(filename, 'w') as json_file:
-                data[category_name] = method()
-                json.dump(data, json_file, indent=4)
-        return data
-    return wrap
-
-
-@to_json
 def all_func():
     """Collect all functions into one dict"""
     functions = {
-        'system_info': (get_system_info, 'get_system_info.json'),
-        'cpu_info': (get_cpu_info, 'get_cpu_info.json'),
-        'cpu_usage': (get_cpu_usage, 'get_cpu_usage.json'),
-        'memory_info': (get_memory_info, 'get_memory_info.json'),
-        'swap_memory': (get_swap_memory, 'get_swap_memory.json'),
-        'disk_info': (get_disk_info, 'get_disk_info.json'),
-        'network_info': (get_network_info, 'get_network_info.json')
+        'system_info': get_system_info,
+        'cpu_info': get_cpu_info,
+        'cpu_usage': get_cpu_usage,
+        'memory_info': get_memory_info,
+        'swap_memory': get_swap_memory,
+        'disk_info': get_disk_info,
+        'network_info': get_network_info,
     }
     return functions
 
@@ -153,25 +157,26 @@ def show(dates):
     """Print all information to the console"""
     table_data = [['Property', 'Value']]
     for category, func in dates.items():
+        data = func()
         table_data.append(['', ''])
-        for prop, value in func.items():
+        for prop, value in data.items():
             table_data.append([prop, value])
     print(Fore.YELLOW + tabulate(table_data, tablefmt='fancy_grid'))
 
 
 def main():
-    to_json(all_func())
+    all_func()
     show(all_func())
 
 
 if __name__ == '__main__':
     print('=' * 69, 'Start system', '=' * 70)
     count = 0
-    for x in range(10):
-        time.sleep(2)
-        count += 10
-        print('=' * 69, f"Hacking system to ...{count}%", '=' * 70)
-    time.sleep(2)
+    # for x in range(10):
+    #     time.sleep(2)
+    #     count += 10
+    #     print('=' * 69, f"Hacking system to ...{count}%", '=' * 70)
+    # time.sleep(2)
     main()
     time.sleep(2)
     print('=' * 69, 'Finish system', '=' * 70)
