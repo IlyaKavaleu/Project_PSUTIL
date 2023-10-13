@@ -1,33 +1,7 @@
-import os
-import time
 import psutil
+from func_converter import count_MB
+from decorator import to_json
 import platform
-import json
-from tabulate import tabulate
-from colorama import Fore, Back, Style, init
-
-init()
-
-
-def count_MB(count_bytes, suffix='B'):
-    """A counting function that converts bytes into GB, if necessary"""
-    factor = 1024
-    for unit in ["", "K", "M", "G", "T", "P"]:
-        if count_bytes < factor:
-            return f"{count_bytes:.2f}{unit}{suffix}"
-        count_bytes /= factor
-
-
-def to_json(filename):
-    """Write a dictionary of functions to JSON files"""
-    def decorator(func):
-        def wrap():
-            data = func()
-            with open(filename, 'w') as json_file:
-                json.dump(data, json_file, indent=4)
-            return data
-        return wrap
-    return decorator
 
 
 @to_json('get_system_info.json')
@@ -151,32 +125,3 @@ def all_func():
         'network_info': get_network_info,
     }
     return functions
-
-
-def show(dates):
-    """Print all information to the console"""
-    table_data = [['Property', 'Value']]
-    for category, func in dates.items():
-        data = func()
-        table_data.append(['', ''])
-        for prop, value in data.items():
-            table_data.append([prop, value])
-    print(Fore.YELLOW + tabulate(table_data, tablefmt='fancy_grid'))
-
-
-def main():
-    all_func()
-    show(all_func())
-
-
-if __name__ == '__main__':
-    print('=' * 69, 'Start system', '=' * 70)
-    count = 0
-    # for x in range(10):
-    #     time.sleep(2)
-    #     count += 10
-    #     print('=' * 69, f"Hacking system to ...{count}%", '=' * 70)
-    # time.sleep(2)
-    main()
-    time.sleep(2)
-    print('=' * 69, 'Finish system', '=' * 70)
